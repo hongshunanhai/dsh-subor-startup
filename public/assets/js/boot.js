@@ -1452,15 +1452,6 @@
     if (muteLabel) muteLabel.textContent = AudioKit.muted ? '取消静音' : '静音';
   }
 
-  function toggleFullscreen() {
-    const el = document.documentElement;
-    if (!document.fullscreenElement) {
-      if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
-    } else if (document.exitFullscreen) {
-      document.exitFullscreen().catch(() => {});
-    }
-  }
-
   /* ------------------------------------------------------------
      交互
      ------------------------------------------------------------ */
@@ -1483,7 +1474,6 @@
     if (ATTRACT && t > T.attract) { goNext(); return; }
     if (e.key === 'r' || e.key === 'R') restart();
     else if (e.key === 'm' || e.key === 'M') toggleMute();
-    else if (e.key === 'f' || e.key === 'F') toggleFullscreen();
   });
 
   document.querySelectorAll('[data-act]').forEach((btn) => {
@@ -1492,7 +1482,6 @@
       const act = btn.dataset.act;
       if (act === 'replay') restart();
       else if (act === 'mute') toggleMute();
-      else if (act === 'full') toggleFullscreen();
     });
   });
 
