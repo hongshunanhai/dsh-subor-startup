@@ -415,3 +415,5 @@ body.is-static .crt::after { animation: none; opacity: 0; }
 
 body.is-leaving .room { opacity: 0; }
 body.is-leaving { background: #000; }
+
+html.dsh-subor-lock, html.dsh-subor-lock body { overflow: hidden !important; background: #000 !important; }
