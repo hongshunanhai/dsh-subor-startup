@@ -7,8 +7,8 @@
   <title>小霸王 × DeepSeek Harness · 开机跑马灯</title>
   <meta name="description" content="小霸王 SB-486D 开机画面 × DeepSeek Harness —— 用 Canvas 与像素字体重制的一段 90 年代。" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c1121f'/%3E%3Cg fill='%23ffd23f'%3E%3Crect x='8' y='8' width='16' height='3'/%3E%3Crect x='8' y='14.5' width='16' height='3'/%3E%3Crect x='8' y='21' width='16' height='3'/%3E%3Crect x='14.5' y='8' width='3' height='16'/%3E%3C/g%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="assets/fonts/font.css?v=11" />
-  <link rel="stylesheet" href="assets/style.css?v=11" />
+  <link rel="stylesheet" href="assets/fonts/font.css?v=12" />
+  <link rel="stylesheet" href="assets/style.css?v=12" />
 </head>
 <body data-attract="1">
   <div class="room">
@@ -45,6 +45,12 @@
     </div>
   </div>
 
-  <script src="assets/js/boot.js?v=11"></script>
+  <script>
+    // 嵌入 DSH（iframe）时铺满整个视口：加模式类
+    if (window.self !== window.top || new URLSearchParams(location.search).get('embed') === '1') {
+      document.documentElement.classList.add('dsh-subor-full');
+    }
+  </script>
+  <script src="assets/js/boot.js?v=12"></script>
 </body>
 </html>

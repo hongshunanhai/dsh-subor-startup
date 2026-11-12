@@ -417,3 +417,28 @@ body.is-leaving .room { opacity: 0; }
 body.is-leaving { background: #000; }
 
 html.dsh-subor-lock, html.dsh-subor-lock body { overflow: hidden !important; background: #000 !important; }
+
+/* 嵌入 DSH 时：电视铺满整个视口 */
+html.dsh-subor-full .room {
+  padding: 0;
+}
+html.dsh-subor-full .tv {
+  width: 100vw;
+  filter: none;
+}
+html.dsh-subor-full .tv::before { display: none; }
+html.dsh-subor-full .chin { display: none; }
+html.dsh-subor-full .screen-wrap {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  aspect-ratio: auto;
+  height: 100vh;
+  height: 100dvh;
+}
+html.dsh-subor-full .hud {
+  position: fixed;
+  z-index: 2147483100;
+  padding: 14px 20px calc(14px + env(safe-area-inset-bottom));
+}
+html.dsh-subor-full body { overflow: hidden; }

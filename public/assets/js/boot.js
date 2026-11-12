@@ -1024,9 +1024,9 @@
     }, 520);
   }
 
-  const SNAKE_COLS = 8;
-  const SNAKE_ROWS = 8;
-  const SNAKE_STEP = 0.065;
+  const SNAKE_COLS = 12;
+  const SNAKE_ROWS = 9;
+  const SNAKE_STEP = 0.055;
   const SNAKE = (() => {
     const out = [];
     let top = 0, bottom = SNAKE_ROWS - 1, left = 0, right = SNAKE_COLS - 1;
@@ -1044,8 +1044,8 @@
   let WALL_GRID = [];
   function buildWallGrid() {
     const N = sprites.games.length;
-    const ROWS = 8;
-    const COLS = 8;
+    const ROWS = SNAKE_ROWS;
+    const COLS = SNAKE_COLS;
     const pool = [];
     for (let i = 0; i < ROWS * COLS; i++) pool.push(i % N);
     let seed = 20261112;
@@ -1071,8 +1071,8 @@
   }
 
   function drawWall(g, mt) {
-    const TILE_W = 64;
-    const TILE_H = 48;
+    const TILE_W = W / SNAKE_COLS;
+    const TILE_H = H / SNAKE_ROWS;
     const N = SNAKE.length;
     const progress = clamp(mt / SNAKE_STEP, 0, N);
 
@@ -1551,7 +1551,7 @@
     }
     renderFrame(0);
     if (AUTO) start();
-    else if (!GATE) setTimeout(() => { if (!started) start(); }, EMBED ? 300 : 1500);
+    else if (!GATE) setTimeout(() => { if (!started) start(); }, EMBED ? 300 : (document.documentElement.classList.contains('dsh-subor-full') ? 300 : 1500));
   }
 
   const fontReady =
