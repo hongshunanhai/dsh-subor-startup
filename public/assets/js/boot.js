@@ -1026,7 +1026,7 @@
 
   const SNAKE_COLS = 12;
   const SNAKE_ROWS = 9;
-  const SNAKE_STEP = 0.018;
+  const SNAKE_STEP = 0.007;
   const SNAKE = (() => {
     const out = [];
     let top = 0, bottom = SNAKE_ROWS - 1, left = 0, right = SNAKE_COLS - 1;
@@ -1084,7 +1084,7 @@
     for (let i = 0; i < Math.floor(progress); i++) {
       const [c, r] = SNAKE[i];
       const age = mt - i * SNAKE_STEP;
-      const sc = 0.55 + 0.45 * easeOutBack(clamp(age / 0.12));
+      const sc = 0.55 + 0.45 * easeOutBack(clamp(age / 0.06));
       const alpha = clamp(age / 0.1);
       const x = c * TILE_W;
       const y = r * TILE_H;
@@ -1133,7 +1133,7 @@
 
     const T1 = 0.25;
     const FILL = SNAKE.length * SNAKE_STEP;
-    const HOLD = 0.5;
+    const HOLD = 0.35;
     const T2 = T1 + FILL + HOLD;
 
     if (a < T1) {
