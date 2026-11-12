@@ -1026,7 +1026,7 @@
 
   const SNAKE_COLS = 12;
   const SNAKE_ROWS = 9;
-  const SNAKE_STEP = 0.055;
+  const SNAKE_STEP = 0.018;
   const SNAKE = (() => {
     const out = [];
     let top = 0, bottom = SNAKE_ROWS - 1, left = 0, right = SNAKE_COLS - 1;
