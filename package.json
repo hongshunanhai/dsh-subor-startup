@@ -1,0 +1,49 @@
+{
+  "name": "dsh-subor-startup",
+  "version": "0.1.0",
+  "description": "小霸王 × DeepSeek Harness 开机动画：CRT 开机「其乐无穷」→ 贪吃蛇把 20 款经典 FC 游戏截图铺满屏幕 → 闪白渐黑进入 DSH。自动播放、可跳过、零配置。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "startup",
+    "splash",
+    "boot-animation",
+    "subor",
+    "xiaobawang",
+    "fc",
+    "retro",
+    "pixel-art"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "public",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "hongshunanhai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongshunanhai/dsh-subor-startup.git"
+  },
+  "homepage": "https://github.com/hongshunanhai/dsh-subor-startup#readme",
+  "bugs": {
+    "url": "https://github.com/hongshunanhai/dsh-subor-startup/issues"
+  }
+}

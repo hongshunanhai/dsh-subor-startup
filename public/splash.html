@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <title>小霸王 × DeepSeek Harness · 开机跑马灯</title>
+  <meta name="description" content="小霸王 SB-486D 开机画面 × DeepSeek Harness —— 用 Canvas 与像素字体重制的一段 90 年代。" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c1121f'/%3E%3Cg fill='%23ffd23f'%3E%3Crect x='8' y='8' width='16' height='3'/%3E%3Crect x='8' y='14.5' width='16' height='3'/%3E%3Crect x='8' y='21' width='16' height='3'/%3E%3Crect x='14.5' y='8' width='3' height='16'/%3E%3C/g%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/fonts/font.css?v=11" />
+  <link rel="stylesheet" href="assets/style.css?v=11" />
+</head>
+<body data-attract="1">
+  <div class="room">
+    <div class="tv" id="tv">
+      <div class="screen-wrap" id="screenWrap">
+        <canvas id="screen" width="512" height="384" aria-label="小霸王 × DeepSeek Harness 开机画面"></canvas>
+        <div class="crt" aria-hidden="true"></div>
+        <div class="gate" id="gate" role="button" tabindex="0" aria-label="点击开机">
+          <div class="gate-inner">
+            <span class="gate-led" aria-hidden="true"></span>
+            <div class="gate-title">即将开机</div>
+            <div class="gate-sub">AUTO POWER ON</div>
+            <div class="gate-note">即将自动开机 · 点击可立即开始</div>
+          </div>
+        </div>
+      </div>
+      <div class="chin">
+        <span class="chin-brand">小霸王</span>
+        <span class="chin-model">DeepSeek Harness · DSH</span>
+        <span class="chin-power"><i class="led" id="led" aria-hidden="true"></i>POWER</span>
+      </div>
+    </div>
+
+    <div class="hud" id="hud">
+      <div class="hud-left">
+        <span>小霸王 SB-486D × DeepSeek Harness</span><span class="build">AUDIO v11</span>
+        <span class="audio-note" id="audioNote" hidden>音频未加载</span>
+      </div>
+      <div class="hud-right">
+        <button type="button" data-act="replay"><kbd>R</kbd>重播</button>
+        <button type="button" data-act="mute"><kbd>M</kbd><span id="muteLabel">静音</span></button>
+        <button type="button" data-act="full"><kbd>F</kbd>全屏</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/boot.js?v=11"></script>
+</body>
+</html>

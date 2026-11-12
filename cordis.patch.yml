@@ -1,0 +1,7 @@
+# dsh-subor-startup — DSH bundle patch
+#
+# 把插件挂进 profile；启动画面由 Host 半侧在 index.html 里注入，
+# 不需要额外的客户端入口。
+- insert:
+    - id: dsh-subor-startup
+      name: dsh-subor-startup

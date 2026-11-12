@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "contra",
+    "name": "魂斗罗",
+    "file": "contra.jpg"
+  },
+  {
+    "slug": "mario",
+    "name": "超级玛丽",
+    "file": "mario.jpg"
+  },
+  {
+    "slug": "tank",
+    "name": "坦克大战",
+    "file": "tank.jpg"
+  },
+  {
+    "slug": "adventure",
+    "name": "冒险岛",
+    "file": "adventure.jpg"
+  },
+  {
+    "slug": "jackal",
+    "name": "赤色要塞",
+    "file": "jackal.jpg"
+  },
+  {
+    "slug": "greenberet",
+    "name": "绿色兵团",
+    "file": "greenberet.jpg"
+  },
+  {
+    "slug": "salamander",
+    "name": "沙罗曼蛇",
+    "file": "salamander.jpg"
+  },
+  {
+    "slug": "doubledragon",
+    "name": "双截龙",
+    "file": "doubledragon.jpg"
+  },
+  {
+    "slug": "ninja",
+    "name": "忍者龙剑传",
+    "file": "ninja.jpg"
+  },
+  {
+    "slug": "kage",
+    "name": "影子传说",
+    "file": "kage.jpg"
+  },
+  {
+    "slug": "circus",
+    "name": "马戏团",
+    "file": "circus.jpg"
+  },
+  {
+    "slug": "pacman",
+    "name": "吃豆人",
+    "file": "pacman.jpg"
+  },
+  {
+    "slug": "galaga",
+    "name": "小蜜蜂",
+    "file": "galaga.jpg"
+  },
+  {
+    "slug": "tetris",
+    "name": "俄罗斯方块",
+    "file": "tetris.jpg"
+  },
+  {
+    "slug": "bomberman",
+    "name": "炸弹人",
+    "file": "bomberman.jpg"
+  },
+  {
+    "slug": "excitebike",
+    "name": "越野摩托",
+    "file": "excitebike.jpg"
+  },
+  {
+    "slug": "arkanoid",
+    "name": "打砖块",
+    "file": "arkanoid.jpg"
+  },
+  {
+    "slug": "tennis",
+    "name": "网球",
+    "file": "tennis.jpg"
+  },
+  {
+    "slug": "macross",
+    "name": "超时空要塞",
+    "file": "macross.jpg"
+  },
+  {
+    "slug": "tmnt",
+    "name": "忍者神龟",
+    "file": "tmnt.jpg"
+  }
+]

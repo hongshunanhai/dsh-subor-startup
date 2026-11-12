@@ -1,0 +1,14 @@
+# awesome-dsh-plugin 条目 · dsh-subor-startup
+# 用法：把这个文件放进 awesome-dsh-plugin 仓库的 data/plugins/ 目录，然后提 PR
+# 文件名必须是 <owner>__<repo>.yml
+# 注意：仓库需要创建满 1 天，并打上 dsh-plugin topic，PR 才能过 CI
+
+url: https://github.com/hongshunanhai/dsh-subor-startup
+name: hongshunanhai/dsh-subor-startup
+category: ui
+
+description:
+  en: 'Subor-style CRT boot animation for DeepSeek Harness: the tube powers on with scanlines, a pixel logo and a "DeepSeek 其乐无穷" voice line, then 8×8 mini game windows fill the screen along a snake-like inward spiral using 20 classic FC screenshots, ending in a white flash and a fade into the app. Auto-plays, skippable, zero configuration.'
+  zh: '小霸王风格的 DSH 开机动画：显像管通电、扫描线、「小霸王」像素字与「DeepSeek 其乐无穷啊」人声，随后 8×8 个小游戏窗沿贪吃蛇式的向内螺旋铺满屏幕（20 款经典 FC 游戏截图），最后闪白渐黑进入应用。自动播放、可跳过、零配置。'
+
+icon: https://raw.githubusercontent.com/hongshunanhai/dsh-subor-startup/main/public/preview.jpg
