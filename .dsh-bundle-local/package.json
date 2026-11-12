@@ -1,0 +1,15 @@
+{
+  "name": "@local/dsh-subor-startup",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "小霸王 × DeepSeek Harness 开机动画（本地 link 调试包）",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "dsh-subor-startup": "link:/Users/bravel/Documents/deepseek-harness/default-workspace/dsh-subor-startup"
+  }
+}
