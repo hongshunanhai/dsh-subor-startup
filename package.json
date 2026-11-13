@@ -1,7 +1,7 @@
 {
   "name": "dsh-subor-startup",
   "version": "0.1.0",
-  "description": "小霸王 × DeepSeek Harness 开机动画：CRT 开机「其乐无穷」→ 贪吃蛇把 20 款经典 FC 游戏截图铺满屏幕 → 闪白渐黑进入 DSH。自动播放、可跳过、零配置。",
+  "description": "Subor-style CRT boot animation for DeepSeek Harness: the tube powers on, the pixel logo drops in with a line of \"DeepSeek, endless fun\", then 108 classic FC game windows fill the screen along a snake-like inward spiral, before a white flash fades into the app. Auto-plays, skippable, zero config.",
   "keywords": [
     "dsh",
     "dsh-plugin",
