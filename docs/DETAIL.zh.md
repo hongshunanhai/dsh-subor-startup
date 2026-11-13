@@ -6,7 +6,7 @@ DeepSeek Harness 的开机动画插件——把 90 年代那台小霸王学习�
 
 ## 效果预览
 
-![开机画面](public/preview.jpg)
+![开机画面](/public/preview.jpg)
 
 > 上图为开机画面实机截图：显像管入口、「小霸王」像素字、`DeepSeek Harness` 副标题与「其乐无穷」标语。
 

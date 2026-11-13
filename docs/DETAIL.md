@@ -6,7 +6,7 @@ A boot animation plugin for DeepSeek Harness—bringing the power-on screen of t
 
 ## Preview
 
-![Boot screen](public/preview.jpg)
+![Boot screen](/public/preview.jpg)
 
 > Real screenshot of the boot screen: the CRT power-on, the 「小霸王」 pixel logo, the `DeepSeek Harness` subtitle and the 「其乐无穷」 slogan.
 
