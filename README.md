@@ -2,6 +2,8 @@
 
 English | [简体中文](README.zh-CN.md)
 
+> 简体中文版见 `README.zh-CN.md`
+
 A boot animation plugin for DeepSeek Harness—bringing the power-on screen of that 1990s Subor learning console into your DSH.
 
 > **Available on the plugin market / under review** — see the [Install](#install) section below.

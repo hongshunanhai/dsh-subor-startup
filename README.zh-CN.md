@@ -2,6 +2,8 @@
 
 [English](README.md) | 简体中文
 
+> English version: `README.md`
+
 DeepSeek Harness 的开机动画插件——把 90 年代那台小霸王学习机的开机画面，搬进你的 DSH。
 
 > **已上架 / 收录中** —— 安装方式见下文「安装」一节。
