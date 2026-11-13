@@ -165,6 +165,8 @@ dsh-subor-startup/
 │   │   └── games/*.jpg   # 20 张游戏截图（可删，自动回退到内置场景）
 │   └── audio/
 │       └── deepseek-short-deep.wav
+├── tools/
+│   └── make_voice.py     # 重新生成人声（macOS say + numpy）
 ├── market/               # awesome-dsh-plugin 收录条目
 ├── screenshots.json      # 市场详情页截图清单
 ├── README.md
