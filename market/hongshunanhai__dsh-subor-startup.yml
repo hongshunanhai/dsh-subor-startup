@@ -8,7 +8,7 @@ name: hongshunanhai/dsh-subor-startup
 category: ui
 
 description:
-  en: 'Subor-style CRT boot animation for DeepSeek Harness: the tube powers on with scanlines, a pixel logo and a "DeepSeek 其乐无穷" voice line, then 8×8 mini game windows fill the screen along a snake-like inward spiral using 20 classic FC screenshots, ending in a white flash and a fade into the app. Auto-plays, skippable, zero configuration.'
-  zh: '小霸王风格的 DSH 开机动画：显像管通电、扫描线、「小霸王」像素字与「DeepSeek 其乐无穷啊」人声，随后 8×8 个小游戏窗沿贪吃蛇式的向内螺旋铺满屏幕（20 款经典 FC 游戏截图），最后闪白渐黑进入应用。自动播放、可跳过、零配置。'
+  en: 'Subor-style CRT boot animation for DeepSeek Harness: the tube powers on, the pixel logo drops in with a "DeepSeek, endless fun" voice line, then 108 classic FC game windows fill the screen along a snake-like inward spiral, ending in a white flash that fades into the app. Auto-plays, skippable, zero configuration.'
+  zh: '小霸王风格的 DSH 开机动画：显像管通电、蓝屏雪花、「小霸王」逐字落下，一句「啊哈，DeepSeek 其乐无穷啊」之后，108 个经典 FC 游戏窗口像贪吃蛇一样铺满全屏，最后闪白渐黑进入应用。自动播放、可跳过、零配置。'
 
 icon: https://raw.githubusercontent.com/hongshunanhai/dsh-subor-startup/main/public/preview.jpg
