@@ -2,12 +2,9 @@
 
 [English](README.md) | 简体中文
 
-> English version: `README.md`
-
 DeepSeek Harness 的开机动画插件——把 90 年代那台小霸王学习机的开机画面，搬进你的 DSH。
 
-> 插件卡片简介（`package.json` 的 `description`）为英文：
-> *Subor-style CRT boot animation for DeepSeek Harness: the tube powers on, the pixel logo drops in with a line of "DeepSeek, endless fun", then 108 classic FC game windows fill the screen along a snake-like inward spiral, before a white flash fades into the app. Auto-plays, skippable, zero config.*
+> 插件页会根据 DSH 的界面语言自动选择 `locale/zh.json` 或 `locale/en.json` 里的标题与简介。
 
 > **已上架 / 收录中** —— 安装方式见下文「安装」一节。
 

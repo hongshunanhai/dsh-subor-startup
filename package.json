@@ -20,7 +20,8 @@
   "exports": {
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
   },
   "files": [
     "lib",
@@ -28,7 +29,8 @@
     "cordis.patch.yml",
     "README.md",
     "LICENSE",
-    "README.zh-CN.md"
+    "README.zh-CN.md",
+    "locale/*.json"
   ],
   "engines": {
     "node": ">=20"
