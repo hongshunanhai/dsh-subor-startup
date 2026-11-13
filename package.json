@@ -30,7 +30,8 @@
     "README.md",
     "LICENSE",
     "README.zh-CN.md",
-    "locale/*.json"
+    "locale/*.json",
+    "docs"
   ],
   "engines": {
     "node": ">=20"

@@ -1,6 +1,7 @@
 {
   "meta": {
     "title": "dsh-subor-startup",
-    "description": "小霸王 × DeepSeek Harness 开机动画：CRT 开机「其乐无穷」，贪吃蛇把 108 个经典 FC 游戏窗口铺满屏幕，闪白渐黑进入 DSH。自动播放、可跳过、零配置。"
+    "description": "小霸王 × DeepSeek Harness 开机动画：CRT 开机「其乐无穷」，贪吃蛇把 108 个经典 FC 游戏窗口铺满屏幕，闪白渐黑进入 DSH。自动播放、可跳过、零配置。",
+    "detail": "docs/DETAIL.zh.md"
   }
 }
